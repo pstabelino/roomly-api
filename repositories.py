@@ -5,11 +5,11 @@ from excecoes import SalaIndisponivelError
 
 
 def buscar_conflitos(
-    id_sala: int, 
-    inicio: datetime, 
+    id_sala: int,
+    inicio: datetime,
     fim: datetime
 ) -> list[dict]:
-    
+
     with conectar() as conexao:
         with conexao.cursor() as cursor:
 
