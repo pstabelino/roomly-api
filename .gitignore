@@ -1,0 +1,21 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos do macOS
+.DS_Store
+
+# Configurações locais
+.vscode/
+
+# Cache de testes
+.pytest_cache/
